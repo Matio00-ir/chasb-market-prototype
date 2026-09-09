@@ -1,9 +1,8 @@
 "use client";
 
 import { Minus, Plus } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, clamp } from "@/lib/utils";
 import { toFaDigits } from "@/lib/format";
-import { clamp } from "@/lib/utils";
 
 /** انتخابگر تعداد با دکمه‌های +/− و ورودی مستقیم. */
 export function QuantitySelector({

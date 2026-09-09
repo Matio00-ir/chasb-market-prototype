@@ -13,8 +13,7 @@ import { Skeleton } from "@/components/ui/Skeleton";
 import { SHIPPING_METHODS } from "@/lib/shipping";
 import { provinceNames, citiesOf } from "@/data/provinces";
 import { formatNumber, toFaDigits } from "@/lib/format";
-import { makeId, sleep } from "@/lib/utils";
-import { cn } from "@/lib/utils";
+import { cn, makeId, sleep } from "@/lib/utils";
 
 interface FormState {
   fullName: string;
