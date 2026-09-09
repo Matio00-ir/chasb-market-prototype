@@ -32,3 +32,6 @@ next-env.d.ts
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# static export copy (not needed in repo)
+/github/
